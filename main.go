@@ -9,21 +9,21 @@ func Register(c *gin.Context) {
 }
 
 func Login(c *gin.Context) {
-  c.JSON(200,gin.H{
-    "msg" :"登录"
-  })
+	c.JSON(200,gin.H{
+		"msg" :"登录",
+	})
 }
 
 func Captcha(c *gin.Context) {
-  c.JSON(200,gin.H{
-    "msg" :"验证码"
-  })
+	c.JSON(200,gin.H{
+		"msg" :"验证码",
+	})
 }
 
 func SearchSong(c *gin.Context) {
-  c.JSON(200,gin.H{
-    "msg" :"搜索歌曲"
-  })
+	c.JSON(200,gin.H{
+		 "msg" :"搜索歌曲",
+	})
 }
 func main() {
     //启动配置
