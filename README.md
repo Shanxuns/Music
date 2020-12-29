@@ -1,5 +1,5 @@
 # Music
-<input type="checkbox" />//收藏列表
+<input type="checkbox" />收藏列表
 //添加收藏
 //删除收藏
 
